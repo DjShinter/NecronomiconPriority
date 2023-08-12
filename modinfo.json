@@ -18,8 +18,8 @@
     ],
     "TextInputSettings": [
       {
-        "Name": "Placeholder TextInput",
-        "Description": "The placeholder inputbox of all time",
+        "Name": "<link=\"1\">https:\/\/github.com\/DjShinter\/TownieLib<\/link>",
+        "Description": "The placeholder inputbox of all time. <link=\"1\">https:\/\/github.com\/DjShinter\/TownieLib<\/link>",
         "DefaultValue": "Default Text",
         "Regex": "[A-Za-z]",
         "CharacterLimit": 10,
