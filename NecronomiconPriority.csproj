@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="modinfo.json" />
+    <None Remove="resources\images\thumbnail.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="modinfo.json" />
+    <EmbeddedResource Include="resources\images\thumbnail.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TownieLib\TownieLib.csproj" />
+  </ItemGroup>
+
+
+</Project>
