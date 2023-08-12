@@ -1,0 +1,70 @@
+{
+  "HarmonyId": "djshinter.necronomiconpriority",
+  "DisplayName": "Necronomicon Priority",
+  "Authors": [
+    "Shinter"
+  ],
+  "Description": "If you are Coven-Aligned this allows you to know who will obtain the Necronomicon next! You can see the priority list by viewing the role list.",
+  "Version": "1.0.0",
+  "RequiredMods": [],
+  "Settings": {
+    "CheckboxSettings": [
+      {
+        "Name": "Placeholder Checkbox",
+        "Description": "The placeholder checkbox of all time",
+        "DefaultValue": true,
+        "AvailableInGame": true
+      }
+    ],
+    "TextInputSettings": [
+      {
+        "Name": "<link=\"1\">https:\/\/github.com\/DjShinter\/TownieLib<\/link>",
+        "Description": "The placeholder inputbox of all time. <link=\"1\">https:\/\/github.com\/DjShinter\/TownieLib<\/link>",
+        "DefaultValue": "Default Text",
+        "Regex": "[A-Za-z]",
+        "CharacterLimit": 10,
+        "AvailableInGame": true
+      }
+    ],
+    "IntegerInputSettings": [
+      {
+        "Name": "Placeholder IntegerInput",
+        "Description": "The placeholder integer inputbox of all time",
+        "DefaultValue": 5,
+        "MinValue": 0,
+        "MaxValue": 10,
+        "AvailableInGame": true
+      }
+    ],
+    "SliderSettings": [
+      {
+        "Name": "Placeholder Slider",
+        "Description": "The placeholder slider of all time",
+        "DefaultValue": 0.5,
+        "MinValue": 0.0,
+        "MaxValue": 1.0,
+        "AvailableInGame": true
+      }
+    ],
+    "DropdownSettings": [
+      {
+        "Name": "Placeholder Dropdown",
+        "Description": "The placeholder dropdown of all time",
+        "Options": [
+          "Option 1",
+          "Option 2",
+          "Option 3"
+        ],
+        "AvailableInGame": true
+      }
+    ],
+    "ColorPickerSettings": [
+      {
+        "Name": "Placeholder Color Picker",
+        "Description": "The placeholder color picker of all time",
+        "DefaultValue": "#696969",
+        "AvailableInGame": true
+      }
+    ]
+  }
+}
